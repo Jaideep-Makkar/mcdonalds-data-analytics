@@ -47,7 +47,7 @@ Created an interactive dashboard with the following key visuals:
 
 ## 📷 Screenshots
 
-1.[Dashboard Overview](./Screenshots/Dashboard_2001-2022.png)
+1.Dashboard overview from year 2002-2022
 
 ---
 
@@ -65,7 +65,7 @@ Created an interactive dashboard with the following key visuals:
 
 ## 🔗 Dataset Source
 
-> McDonald's Financials (2002–2023) — [https://www.kaggle.com/datasets/mikhail1681/mcdonalds-financial-statements-2002-2022/discussion?sort=hotness](https://www.kaggle.com/)  
+> McDonald's Financials (2002–2022) — [https://www.kaggle.com/datasets/mikhail1681/mcdonalds-financial-statements-2002-2022/discussion?sort=hotness](https://www.kaggle.com/)  
 
 ---
 
