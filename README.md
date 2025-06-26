@@ -47,7 +47,7 @@ Created an interactive dashboard with the following key visuals:
 
 ## 📷 Screenshots
 
-1.Dashboard overview from year 2002-2022
+1.Dashboard overview from year 2002-2022, Screenshots/Dashboard 2001-2022.png
 
 ---
 
