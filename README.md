@@ -1,120 +1,89 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "d059f5bf-6f88-4bd8-bbb1-8596ac568503",
-   "metadata": {},
-   "source": [
-    "# 🍟 McDonald's Financial Data Analysis (2002–2022)\n",
-    "\n",
-    "This project presents a complete financial analysis of McDonald's Corporation using Python and Power BI. It involves data cleaning, exploration, and interactive dashboard creation to derive insights from McDonald's performance over 21 years.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📊 Project Overview\n",
-    "\n",
-    "- **Goal:** Analyze the financial performance of McDonald’s from 2002 to 2023 and present key trends and insights through an interactive dashboard.\n",
-    "- **Tools Used:**  \n",
-    "  - `Python (Pandas, Matplotlib)`  \n",
-    "  - `Jupyter Notebook`  \n",
-    "  - `Power BI`\n",
-    "- **Dataset:**  \n",
-    "  - Financial statements of McDonald’s from 2002–2022  \n",
-    "  - Columns include Revenue, Earnings, EPS, Operating Margin, P/E Ratio, Total Assets, Dividends, and more\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🛠️ Steps Performed\n",
-    "\n",
-    "### 1. Data Cleaning (Python)\n",
-    "- Loaded and explored the dataset using pandas\n",
-    "- Handled missing values and inconsistent data types\n",
-    "- Converted numerical columns from string to float\n",
-    "- Saved the cleaned data to use in Power BI\n",
-    "\n",
-    "### 2. Dashboard Development (Power BI)\n",
-    "Created an interactive dashboard with the following key visuals:\n",
-    "- 📈 **Revenue & Earnings Over Time**\n",
-    "- 📉 **Operating Margin Trend**\n",
-    "- 📊 **Valuation Ratios (P/E, P/S, P/B)**\n",
-    "- 💸 **Dividends & Yield Analysis**\n",
-    "- 📅 **Slicer by Year** to dynamically filter all visuals\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📌 Key Insights\n",
-    "\n",
-    "- Revenue has shown consistent growth after 2015\n",
-    "- Operating margins improved significantly between 2010–2020\n",
-    "- Dividend payouts have steadily increased, indicating strong shareholder value\n",
-    "- P/E ratio fluctuated with market trends but remained healthy\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📷 Screenshots\n",
-    "\n",
-    "![Dashboard Overview](./screenshots/dashboard_overview.png)\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 📁 Files Included\n",
-    "\n",
-    "| File | Description |\n",
-    "|------|-------------|\n",
-    "| `mcd_data_cleaning.ipynb` | Jupyter notebook for data cleaning and preprocessing |\n",
-    "| `mcd_visuals.pbix` | Power BI file with dashboard |\n",
-    "| `mcdonalds_financials.csv` | Raw dataset |\n",
-    "| `README.md` | Project summary |\n",
-    "| `screenshots/` | Contains images of the Power BI visuals |\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🔗 Dataset Source\n",
-    "\n",
-    "> McDonald's Financials (2002–2023) — [https://www.kaggle.com/datasets/mikhail1681/mcdonalds-financial-statements-2002-2022/discussion?sort=hotness](https://www.kaggle.com/)  \n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🙋‍♂️ Author\n",
-    "\n",
-    "**Jaideep Makkar**  \n",
-    "📧 jaideepmakkar23@gmail.com  \n",
-    "📍 Winnipeg, MB, Canada  \n",
-    "[LinkedIn](https://www.linkedin.com/in/jaideepmakkar/)\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## 🧠 Future Improvements\n",
-    "\n",
-    "- Add forecasting using Prophet or ARIMA (Python)\n",
-    "- Integrate monthly or quarterly data for deeper time series analysis\n",
-    "- Embed Power BI dashboard using Power BI Service (pro version)\n",
-    "\n",
-    "---\n",
-    "\n",
-    "⭐ If you liked this project, don't forget to give it a star on GitHub!\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.11.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+
+# 🍟 McDonald's Financial Data Analysis (2002–2022)
+
+This project presents a complete financial analysis of McDonald's Corporation using Python and Power BI. It involves data cleaning, exploration, and interactive dashboard creation to derive insights from McDonald's performance over 21 years.
+
+---
+
+## 📊 Project Overview
+
+- **Goal:** Analyze the financial performance of McDonald’s from 2002 to 2023 and present key trends and insights through an interactive dashboard.
+- **Tools Used:**  
+  - `Python (Pandas, Matplotlib)`  
+  - `Jupyter Notebook`  
+  - `Power BI`
+- **Dataset:**  
+  - Financial statements of McDonald’s from 2002–2022  
+  - Columns include Revenue, Earnings, EPS, Operating Margin, P/E Ratio, Total Assets, Dividends, and more
+
+---
+
+## 🛠️ Steps Performed
+
+### 1. Data Cleaning (Python)
+- Loaded and explored the dataset using pandas
+- Handled missing values and inconsistent data types
+- Converted numerical columns from string to float
+- Saved the cleaned data to use in Power BI
+
+### 2. Dashboard Development (Power BI)
+Created an interactive dashboard with the following key visuals:
+- 📈 **Revenue & Earnings Over Time**
+- 📉 **Operating Margin Trend**
+- 📊 **Valuation Ratios (P/E, P/S, P/B)**
+- 💸 **Dividends & Yield Analysis**
+- 📅 **Slicer by Year** to dynamically filter all visuals
+
+---
+
+## 📌 Key Insights
+
+- Revenue has shown consistent growth after 2015
+- Operating margins improved significantly between 2010–2020
+- Dividend payouts have steadily increased, indicating strong shareholder value
+- P/E ratio fluctuated with market trends but remained healthy
+
+---
+
+## 📷 Screenshots
+
+1.[Dashboard Overview](./screenshots/dashboard_2002-2022.png)
+
+---
+
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| `mcd_data_cleaning.ipynb` | Jupyter notebook for data cleaning and preprocessing |
+| `mcd_visuals.pbix` | Power BI file with dashboard |
+| `mcdonalds_financials.csv` | Raw dataset |
+| `README.md` | Project summary |
+| `screenshots/` | Contains images of the Power BI visuals |
+
+---
+
+## 🔗 Dataset Source
+
+> McDonald's Financials (2002–2023) — [https://www.kaggle.com/datasets/mikhail1681/mcdonalds-financial-statements-2002-2022/discussion?sort=hotness](https://www.kaggle.com/)  
+
+---
+
+## 🙋‍♂️ Author
+
+**Jaideep Makkar**  
+📧 jaideepmakkar23@gmail.com  
+📍 Winnipeg, MB, Canada  
+[LinkedIn](https://www.linkedin.com/in/jaideepmakkar/)
+
+---
+
+## 🧠 Future Improvements
+
+- Add forecasting using Prophet or ARIMA (Python)
+- Integrate monthly or quarterly data for deeper time series analysis
+- Embed Power BI dashboard using Power BI Service (pro version)
+
+---
+
+⭐ If you liked this project, don't forget to give it a star on GitHub!
