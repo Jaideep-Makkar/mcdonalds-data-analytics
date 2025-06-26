@@ -47,7 +47,7 @@ Created an interactive dashboard with the following key visuals:
 
 ## 📷 Screenshots
 
-1.[Dashboard Overview](./screenshots/dashboard_2002-2022.png)
+1.[Dashboard Overview](./Screenshots/Dashboard_2001-2022.png)
 
 ---
 
